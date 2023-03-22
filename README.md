@@ -18,7 +18,7 @@ Quando a luminosidade estiver em nível de alerta, deve soar uma buzina (buzzer)
 
 ### Desenvolvimento do projeto
    
-   O projeto foi desenvolvido no editor de código do Arduino e na plataforma digital <a href"https://www.tinkercad.com">Tinkercad</a>, utilizando a linguagem de programação C++ e a plataforma para prototipagem. O código começa com a declaração das variáveis 'luminosidade' e 'i', seguido pela função 'setup()', que configura os pinos dos LEDs e do Buzzer como saídas, o pino A0 como entrada para o sensor de luz e a comunicação serial. No loop principal, a variável luminosidade é atualizada com o valor da leitura analógica do sensor de luz e os LEDs e Buzzer são acionados de acordo com a luminosidade medida.
+   O projeto foi desenvolvido no editor de código do Arduino e na plataforma digital <a href="https://www.tinkercad.com"> Tinkercad </a>, utilizando a linguagem de programação C++ e a plataforma para prototipagem. O código começa com a declaração das variáveis 'luminosidade' e 'i', seguido pela função 'setup()', que configura os pinos dos LEDs e do Buzzer como saídas, o pino A0 como entrada para o sensor de luz e a comunicação serial. No loop principal, a variável luminosidade é atualizada com o valor da leitura analógica do sensor de luz e os LEDs e Buzzer são acionados de acordo com a luminosidade medida.
 
 ### Como executar o projeto
 
@@ -63,7 +63,7 @@ O código para o projeto está disponível no arquivo <a href="https://github.co
 
 ## Video explicativo
 
-Link para o video explicativo: <a href"#">?</a>
+Link para o video explicativo: <a href="#">?</a>
 
 ## Conclusão
 
