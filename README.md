@@ -67,5 +67,5 @@ Link para o video explicativo: <a href="#">?</a>
 
 ## Conclusão
 
-Este projeto demonstra como é possível utilizar o Arduino para criar um sistema de detecção de luminosidade simples e eficiente para o controle em adegas de vinho e vinheirias. 
-Em resumo, este projeto demonstra como é possível utilizar o Arduino para controlar a luminosidade e criar sistemas simples de automação comercial. Com base neste código, é possível explorar outras possibilidades de controle de iluminação e criar projetos mais avançados e personalizados.
+<p>Este projeto demonstra como é possível utilizar o Arduino para criar um sistema de detecção de luminosidade simples e eficiente para o controle em adegas de vinho e vinheirias.</p> 
+<p>Em resumo, este projeto demonstra como é possível utilizar o Arduino para controlar a luminosidade e criar sistemas simples de automação comercial. Com base neste código, é possível explorar outras possibilidades de controle de iluminação e criar projetos mais avançados e personalizados.</p>
