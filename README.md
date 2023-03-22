@@ -17,7 +17,7 @@ Este projeto utiliza um sensor de luz (LDR), LEDs e um buzzer para criar um sist
 
 O esquema elétrico do projeto é o seguinte:
 
-![Circuito Esquemático](https://github.com/devCaiqueWS/sensor-luminosidade/blob/main/circuito.png)
+![Circuito Esquemático](https://github.com/devCaiqueWS/sensor-luminosidade/blob/main/circuito.jpeg)
 
 ## Funcionamento
 
