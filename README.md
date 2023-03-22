@@ -1,6 +1,6 @@
 # Sistema de detecção de luminosidade com Arduino
 
-Este projeto utiliza um sensor de luz (LDR), LEDs e um buzzer para criar um sistema que detecta a luminosidade da vinheiria ou adega e acende um dos LEDs de acordo com o nível de luminosidade. Quando a luminosidade atinge um valor alto o suficiente, o buzzer é acionado por 3 segundos.
+Este projeto utiliza um sensor de luz (LDR), LEDs e um buzzer para criar um sistema que detecta a luminosidade da vinheiria ou adega e acende um dos LEDs de acordo com o nível de luminosidade, indicando quão prejudicial pode ser o estado atual de iluminação. Quando a luminosidade atinge um valor alto o suficiente, o buzzer é acionado por 3 segundos.
 
 
 ## Objetivo
