@@ -25,7 +25,7 @@ O projeto consiste em ler a luminosidade do ambiente (Vinheiria) através do sen
 
 ## Código
 
-O código para o projeto está disponível no arquivo <a href="https://github.com/devCaiqueWS/sensor-luminosidade/main.ino">main.ino</a>. Ele utiliza as funções:
+O código para o projeto está disponível no arquivo <a href="https://github.com/devCaiqueWS/sensor-luminosidade/blob/main/main.ino">main.ino</a>. Ele utiliza as funções:
 
 - Serial.begin (Configura a taxa de transmissão de dados em bits);
 - AnalogRead (Utilizada para ler o valor da tensão produzida pelo sensor de luz LDR);
