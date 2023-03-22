@@ -16,7 +16,6 @@ void setup()
 void loop()
 {
   luminosidade = analogRead(A0);
-  Serial.println(luminosidade);
   if (luminosidade < 850) {
     digitalWrite(11, LOW);
     digitalWrite(8, LOW);
