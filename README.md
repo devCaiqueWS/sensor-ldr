@@ -19,7 +19,8 @@ Quando a luminosidade estiver em nível de alerta, deve soar uma buzina (buzzer)
 
 ### Desenvolvimento do projeto
    
-   O projeto foi desenvolvido no editor de código do Arduino e na plataforma digital <a href="https://www.tinkercad.com"> Tinkercad </a>, utilizando a linguagem de programação C++ e a plataforma para prototipagem. O código começa com a declaração das variáveis 'luminosidade' e 'i', seguido pela função 'setup()', que configura os pinos dos LEDs e do Buzzer como saídas, o pino A0 como entrada para o sensor de luz e a comunicação serial. No loop principal, a variável luminosidade é atualizada com o valor da leitura analógica do sensor de luz e os LEDs e Buzzer são acionados de acordo com a luminosidade medida.
+   O projeto foi desenvolvido no editor de código do Arduino (onde programamos em C++) e na plataforma digital Tinkercad, utilizada para prototipagem. O código começa com a declaração das variáveis 'luminosidade' e 'i', seguido pela função 'setup()', que configura os pinos dos LEDs e do Buzzer como saídas, A0 como entrada para o sensor de luz e a comunicação serial. No loop principal, a variável luminosidade é atualizada com o valor da leitura analógica do sensor de luz e os LEDs e Buzzer são acionados de acordo com a luminosidade medida.
+
 
 --------------------
 ### Como executar o projeto
@@ -54,14 +55,18 @@ O esquema elétrico do projeto é o seguinte:
 --------------------
 ## Funcionamento
 
-O projeto consiste em ler a luminosidade do ambiente (Vinheiria) através do sensor LDR e com base no valor lido, acender um dos LEDs (verde, amarelo ou vermelho). O LED verde é aceso se a luminosidade for baixa, o amarelo é aceso caso a luminosidade não seja a ideal mas não prejudique o produção dos vinhos e o vermelho é aceso  e o Buzzer acionado por 3 segundos se a luminosidade for alta demais para a conservação no produto no ambiente analisado.
+O projeto consiste na leitura da luminosidade do ambiente (Vinheria) através do sensor LDR, que aciona um dos LEDs com base no valor lido.
+
+- Led verde: É acionado caso a luminosidade seja ideal;
+- Led amarelo: É acionado caso a luminosidade apesar de não ser ideal, não prejudique a produção dos vinhos;
+- Led vermelho: É acionado junto ao Buzzer (esse, por apenas três segundos, em sinal de alerta) caso a luminosidade seja alta demais para a conservação dos vinhos;
 
 ----------------------------
 ## Difilculdades
 
-1. Conexões resistores: Tivemos difilculdade em apenas uma conexão do circuito na web, o resistor ligado em série com o LDR, no inicio conectamos ele em push up(Ligado no polo positivo) o que retornaria menor resistência dependendo da luminosidade.
+1. Conexões resistores: Tivemos dificuldade apenas em uma conexão do circuito na web: o resistor ligado em série com o LDR. No início, conectamos ele em push up (ligado no polo positivo) o que retornaria menor resistência dependendo da luminosidade.
 
-2. Calibração do LDR: o LDR é sensível à luz e pode ter leituras diferentes dependendo da iluminação do ambiente. No programa(Tinkercad) tivemos que utilizar o monitor serial para pegar os  valores de  resistência, o utiliza-los no código.
+2. Calibração do LDR: o LDR é sensível à luz e pode ter leituras diferentes dependendo da iluminação do ambiente. No programa (Tinkercad) tivemos que utilizar o monitor serial para pegar os valores de resistência e utilizá-los no código.
 
 ---------------------------------
 ## Código
@@ -81,5 +86,6 @@ Link para o video explicativo: <a href="#">?</a>
 ---------------------------
 ## Conclusão
 
-<p>Este projeto demonstra como é possível utilizar o Arduino para criar um sistema de detecção de luminosidade simples e eficiente para o controle em adegas de vinho e vinheirias.</p> 
-<p>Em resumo, este projeto demonstra como é possível utilizar o Arduino para controlar a luminosidade e criar sistemas simples de automação comercial. Com base neste código, é possível explorar outras possibilidades de controle de iluminação e criar projetos mais avançados e personalizados.</p>
+<p>
+   Em resumo, este projeto demonstra como é possível utilizar o Arduino para controlar a luminosidade e criar sistemas simples de automação comercial. No caso estudado, foi criado um sistema simples para o controle em adegas de vinho e vinherias. Com base neste código, também será possível explorar outras possibilidades de controle de iluminação para projetos mais avançados e personalizados.
+</p> 
