@@ -81,7 +81,7 @@ O código para o projeto está disponível no arquivo <a href="https://github.co
 ----------------------------
 ## Video explicativo
 
-Link para o video explicativo: <a href="#">?</a>
+<a href="https://www.youtube.com/watch?v=0lqFb9aTdmE">Link para o video explicativo</a>
 
 ---------------------------
 ## Conclusão
